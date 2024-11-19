@@ -11,10 +11,9 @@ const Header = () => {
       <Image src={Ddsgnr} alt="logo" width={130.6} height={41} className="pt-[29px] pb-[29px] gap-[10.5px]" />
       </div>
       
-      <div className="flex justify-center gap-32 font-normal py-4">
+      <div className="flex justify-center gap-32 text-lg font-normal py-4">
         <Link href="#" className="relative">
           Home
-          {/* Border under Home */}
           <span className="absolute top-8 left-0 w-full h-0.5 bg-black"></span>
         </Link>
         <Link href="#">Courses</Link>

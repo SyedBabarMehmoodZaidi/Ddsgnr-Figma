@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Girl from '/public/Images/Image.png';
 import Banner from '/public/Images/2.png';
 import React from 'react';
+import Category from './Category';
 
 const Hero = () => {
   return (
@@ -37,6 +38,8 @@ const Hero = () => {
       <div className='w-full'>
         <Image src={Banner} alt='banner' layout='responsive' width={1280} height={228} />
       </div>
+      <Category />
+      
     </div>
   );
 };
