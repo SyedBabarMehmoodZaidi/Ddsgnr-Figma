@@ -5,7 +5,7 @@ const Category = () => {
   return (
     <div className='place-content-center'>
       <div>  
-      <h1 className='pt-[112px] text-[48px] font-bold text-center gap-24'>
+      <h1 className='text-[48px] font-bold text-center gap-24'>
         Explore Courses By Category 
         </h1>
         </div>
@@ -15,7 +15,7 @@ const Category = () => {
         </p>
     
     <div className='pt-[126px]'>
-    <Image src={Frame} alt='category' width={1800} height={132} className=' mx-auto'/> 
+    <Image src={Frame} alt='category' width={1280} height={636} className=' mx-auto'/> 
     </div>
     
     </div>

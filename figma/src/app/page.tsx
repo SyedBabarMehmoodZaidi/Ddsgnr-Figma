@@ -4,6 +4,7 @@ import Achivements from './components/Achivements';
 import Courses from './components/Courses';
 import Testimonials from './components/Testimonials';
 
+
 const HomePage = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Achivements />
       <Courses />
       <Testimonials />
+      
     </div>
   )
 }
