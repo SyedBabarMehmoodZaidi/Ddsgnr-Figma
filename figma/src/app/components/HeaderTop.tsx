@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
+
 const HeaderTop = () => {
   return (
     <div className="hidden lg:flex pl-[80px] justify-between font-normal leading-9 text-center border-b-2cd">
